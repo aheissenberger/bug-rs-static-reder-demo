@@ -1,0 +1,25 @@
+{
+  "name": "shop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@lazarv/react-server": "0.0.0-experimental-3955213-20241116-c7cdeda5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15"
+  },
+  "scripts": {
+    "dev": "react-server",
+    "build": "react-server build",
+    "build-static": "react-server build --export=true",
+    "start": "react-server start"
+  }
+}
